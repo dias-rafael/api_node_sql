@@ -2,11 +2,11 @@ const sql = require("mssql");
 
 //Initiallising connection string
 var dbConfig = {
-    user: 'user_node',
-    password: '#4dm!n#2020',
-    server: '207.180.244.218',
+    user: '//usuario sql',
+    password: '//senha sql',
+    server: '//ip sql',
     port: 1433,
-    database: 'db_web'
+    database: '//base sql'
 };
 
 exports.showIndex = (req, res, next) => {
