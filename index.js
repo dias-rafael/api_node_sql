@@ -35,8 +35,8 @@ if(!isProduction) {
   app.use(errorHandler());
 }
 
-const url_producao = ('mongodb://dev:4dm1n2020@costabrasil-shard-00-00-zemxu.mongodb.net:27017,costabrasil-shard-00-01-zemxu.mongodb.net:27017,costabrasil-shard-00-02-zemxu.mongodb.net:27017/costabrasil?ssl=true&replicaSet=CostaBrasil-shard-0&authSource=admin&retryWrites=true&w=majority');
-const url_homologacao = ('mongodb://dev:4dm1n2020@costabrasil-shard-00-00-zemxu.mongodb.net:27017,costabrasil-shard-00-01-zemxu.mongodb.net:27017,costabrasil-shard-00-02-zemxu.mongodb.net:27017/costabrasilhomologacao?ssl=true&replicaSet=CostaBrasil-shard-0&authSource=admin&retryWrites=true&w=majority');
+const url_producao = ('//STRING CONEXAO MONGO PRODUCAO');
+const url_homologacao = ('//STRING CONEXAO MONGO HOMOLOGACAO');
 
 const url = url_homologacao //ALTERAR PARA HOMOLOGACAO OU PRODUCAO
 
